@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color:rgb(47, 47, 47);
+}
+
 .container{
     display:flex;
     flex-wrap: wrap;
@@ -14,7 +18,7 @@
 
 .square{
     height: 50px;
-    background-color: aqua;
+    background-color:white;
     flex: 0 1 50px;
 }
 

@@ -11,8 +11,8 @@ container.addEventListener("mouseover", (e) => {
     }
 })
 
-container.addEventListener("mouseout", (e) => {
-    if(e.target.classList.contains("square")){
-        e.target.classList.remove("over");
-    }
-})
+// container.addEventListener("mouseout", (e) => {
+//     if(e.target.classList.contains("square")){
+//         e.target.classList.remove("over");
+//     }
+// })
