@@ -6,13 +6,13 @@ for(let i = 0; i < 256; i++){
 }
 
 container.addEventListener("mouseover", (e) => {
-    if(e.target.getAttribute("class") === "square"){
+    if(e.target.classList.contains("square")){
         e.target.classList.add("over");
     }
 })
 
 container.addEventListener("mouseout", (e) => {
-    if(e.target.getAttribute("class") === "square"){
+    if(e.target.classList.contains("square")){
         e.target.classList.remove("over");
     }
 })
